@@ -1,0 +1,23 @@
+---
+label: Premio
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: grafica_premio
+  type: file
+  config:
+    maxSize: 250
+  label: grafica_premio
+- name: testo_premio
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: testo premio
