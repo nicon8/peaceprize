@@ -21,3 +21,5 @@ fields:
     schema:
       format: markdown
   label: testo premio
+pages:
+- content/tessitore-della-pace.md
