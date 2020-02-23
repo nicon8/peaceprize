@@ -6,9 +6,11 @@ webhook_url:
 sections:
 - type: directory
   path: content
-  label: sidebar
+  label: anno
   create: all
   match: "**/*"
+  templates:
+  - premio-per-la-pace
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
