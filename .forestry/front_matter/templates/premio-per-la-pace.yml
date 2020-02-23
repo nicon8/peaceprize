@@ -2,6 +2,12 @@
 label: Premio per la Pace
 hide_body: true
 fields:
+- name: foto_vincitore
+  type: file
+  config:
+    maxSize: 250
+  label: foto
+  description: Foto del vincitore del premio
 - name: testo_principale
   type: textarea
   default: ''
