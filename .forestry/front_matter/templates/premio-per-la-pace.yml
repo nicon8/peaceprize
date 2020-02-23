@@ -11,3 +11,5 @@ fields:
     schema:
       format: markdown
   label: Testo Principale
+pages:
+- content/2020/Vincitore.md
