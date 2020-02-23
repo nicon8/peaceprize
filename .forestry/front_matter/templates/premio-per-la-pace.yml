@@ -1,4 +1,13 @@
 ---
 label: Premio per la Pace
 hide_body: true
-fields: []
+fields:
+- name: testo_principale
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Testo Principale
