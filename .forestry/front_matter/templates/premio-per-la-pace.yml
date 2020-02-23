@@ -1,6 +1,7 @@
 ---
-label: Premio per la Pace
+label: Scheda Vincitore
 hide_body: true
+display_field: testo_principale
 fields:
 - name: foto_vincitore
   type: file
